@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator Sederhana</title>
+  <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+  <div class="calculator">
+    <input type="text" class="display" id="display" readonly>
+    <div class="buttons">
+      <button onclick="hapusTampilan()">C</button>
+      <button onclick="angkaTampilan('7')">7</button>
+      <button onclick="angkaTampilan('8')">8</button>
+      <button onclick="angkaTampilan('9')">9</button>
+      <button onclick="angkaTampilan('+')">+</button>
+      <button onclick="angkaTampilan('4')">4</button>
+      <button onclick="angkaTampilan('5')">5</button>
+      <button onclick="angkaTampilan('6')">6</button>
+      <button onclick="angkaTampilan('-')">-</button>
+      <button onclick="angkaTampilan('1')">1</button>
+      <button onclick="angkaTampilan('2')">2</button>
+      <button onclick="angkaTampilan('3')">3</button>
+      <button onclick="angkaTampilan('*')">*</button>
+      <button onclick="angkaTampilan('0')">0</button>
+      <button onclick="angkaTampilan('.')">.</button>
+      <button onclick="hasilJumlah()">=</button>
+      <button onclick="angkaTampilan('/')">/</button>
+      <button onclick="angkaTampilan('%')">%</button>
+      <button onclick="angkaTampilan('**')">**</button>
+      <button onclick="angkaTampilan('<')"><</button>
+      <button onclick="angkaTampilan('>')">></button>
+    </div>
+  </div>
+  <script src="nomor.js"></script>
+</body>
+
+</html>
